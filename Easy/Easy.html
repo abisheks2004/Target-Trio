@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Target Trio 🪶=> Easy Game</title>
+  <link rel="shortcut icon" href="stars.png" type="image/x-icon">
+  <link rel="stylesheet" href="Easy.css">
+</head>
+<body>
+  <button class="home-button" onclick="goHome()"> ← </button>
+  <h2 id="target"></h2>
+  <div id="main-border"></div>
+  <div class="button-container">
+    <button onclick="checkResult()">Check</button>
+    <button onclick="generatePuzzle()">Refresh</button>
+    <button onclick="toggleRules()">?</button>
+  </div>
+  <div class="rules" id="rules">
+    <h3>Game Rules</h3>
+    <ul>
+      <li>If the sum of your selected numbers matches the target, you win!</li>
+      <li>Select exactly 3 numbers to reach the target.</li>
+      <li>Selecting more than 3 numbers is incorrect.</li>
+    </ul>
+  </div>
+  <script src="Easy.js"></script>
+</body>
+</html>
