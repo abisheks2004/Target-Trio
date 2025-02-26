@@ -14,7 +14,7 @@ function generatePuzzle() {
   let values = validCells.map(i => numbers[i]);
   target = generateTarget(values);
 
-  document.getElementById('target').textContent = `Target: ${target} || Operation: ${operation}`;
+  document.getElementById('target').textContent = `Target: ${target} || Operation : ( ${operation} )`;
 
   renderGrid(numbers, mainBorder);
 }
