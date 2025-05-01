@@ -14,7 +14,7 @@ function generatePuzzle() {
     target = findValidTarget(numbers, operation);
   } while (target === null);
   
-  document.getElementById('target').textContent = `Target Number: ${target}  || Operation to Use: ( ${operation} )`;
+  document.getElementById('target').textContent = `Target: ${target}  || Operation to Use: ( ${operation} )`;
 
   numbers.forEach(num => createCell(num, mainBorder));
 }
