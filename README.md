@@ -2,8 +2,7 @@
 Target Trio is a simple yet engaging web-based number puzzle game with three difficulty modes — Easy, Moderate, and Hard — challenging your mental math and logic skills. The goal is to select numbers that match or calculate to a target number based on the rules of each mode.
 
 🚀 Live Demo
-Try it out here (replace with your actual deployed link):
-https://abisheks2004.github.io/Target-Trio/
+Try it out here : https://abisheks2004.github.io/Target-Trio/
 
 🕹️ Game Modes & Rules
 Easy Mode
